@@ -1,9 +1,8 @@
-
 import styled from "styled-components";
 
 export const Form = styled.form`
   margin: auto;
-  padding-top: 4rem;
+  padding-top: 2rem;
   position: relative;
   text-indent: 40px;
   display: flex;
@@ -14,7 +13,6 @@ export const Form = styled.form`
   border-radius: 20px;
   background: rgba(4, 4, 4, 0.05);
   box-shadow: 0.1px 0.1px 44px #ffdfdd;
-  
 `;
 
 export const Button = styled.button`
@@ -28,7 +26,6 @@ export const Button = styled.button`
   width: 100%;
   height: 40px;
   line-height: 42px;
-  padding: 0;
   border: none;
   background-image: radial-gradient(
     circle 894px at 7% 14%,
